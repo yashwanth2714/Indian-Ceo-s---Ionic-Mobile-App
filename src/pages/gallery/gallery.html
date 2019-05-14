@@ -1,0 +1,26 @@
+<!--
+  Generated template for the QuotesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="header">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Gallery</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="scroll-content" style="background-color: rgb(51, 51, 80)">
+
+
+<ion-slides class="image-slider"  loop="true" slidesPerView="2">
+  <ion-slide *ngFor="let img of images">
+    <img src="assets/imgs/{{img}}" class="thumb-img" imageViewer>
+  </ion-slide>
+
+</ion-slides>
+
+  </ion-content>

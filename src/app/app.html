@@ -1,0 +1,44 @@
+
+<div *ngIf="showSplash" class="splash">
+  <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
+</div>
+<ion-menu [content]="content" persistent="true" >
+  <!--
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>-->
+  
+    <ion-content class="scroll-content" class="bg-color"  >
+   
+   
+   
+          <img src="assets/imgs/ceo1.png" width="300px" height="140px">
+          <div class="myOverlay">INDIAN CEO'S HEADING TOP COMPANIES</div>
+    <ion-list class="bg-color1" no-lines >
+     
+        
+   <button menuClose ion-item *ngFor="let p of pages" [class.activeHighlight]="checkActive(p)" (click)="openPage(p)">
+          {{p.title}}
+        
+        </button>
+       
+        
+      </ion-list>
+    </ion-content>
+  
+  </ion-menu>
+  
+  <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+  <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

@@ -1,0 +1,46 @@
+<!--
+  Generated template for the QuizPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="header">
+      
+    <ion-title>Quiz</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content style="background-color: rgb(51, 51, 80)">
+  <ion-card>
+   <!-- <img src="assets/imgs/p1.jpg"/>-->
+    <ion-card-content style="background-color: rgb(51, 51, 80); color: white">
+      <ion-card-title style="color: rgb(247, 236, 236);font-size:18px " >
+        
+        5. Sanjay Kumar Jha is the CEO of ?
+        </ion-card-title>
+        <button ion-button full  color="header1" (click)="showAlert1()"> Adobe Systems</button>
+        <button ion-button full  color="header1" (click)="showAlert1()"> Soft Bank Internet & Media Inc</button>
+        <button ion-button full  color="header1" (click)="showAlert1()"> Master Card</button>
+        <button ion-button full  color="header1" (click)="showAlert()"> Global Foundaries</button>
+        </ion-card-content>
+  </ion-card>
+  <button ion-button    round outline navPop  style="text-align:center; color: #dc143c;background-color: white">
+    <ion-icon name="arrow-round-back">     Previous</ion-icon>
+  </button>
+  <button ion-button  float-right   round outline [navPush]="page"  style="text-align:center; color: #dc143c;background-color: white">
+    <ion-icon name="arrow-round-forward">     Next</ion-icon>
+  </button>
+  <ion-fab right bottom mini>
+      <button ion-fab mini color="light"><ion-icon name="options"></ion-icon></button>
+      <ion-fab-list side="left">
+       <button ion-fab style="color:#dc143c"  (click)="qui()"><ion-icon name="refresh"></ion-icon></button>
+       <button ion-fab style="color:#dc143c"  (click)="hom()"><ion-icon name="home"></ion-icon></button>
+       <button ion-fab style="color:#dc143c"  (click)="gal()"><ion-icon name="images"></ion-icon></button>
+      <button ion-fab style="color:#dc143c"  (click)="con()"><ion-icon name="contact"></ion-icon></button>
+      </ion-fab-list>
+    </ion-fab>
+</ion-content>

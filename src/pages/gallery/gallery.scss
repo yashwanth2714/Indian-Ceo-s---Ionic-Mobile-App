@@ -1,0 +1,18 @@
+page-gallery {
+
+    ion-slide.swiper-slide {
+        left: 15%;
+        
+    }
+    .thumb-img {
+      padding: 5px;
+      width: 300px;
+      height: 200px;
+    }
+  
+    .scroll-content {
+      overflow-y: auto !important;
+   }
+     
+  }
+  
