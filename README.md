@@ -17,7 +17,6 @@ I used Visual Studio Code as my Code Editor. Following screenshots are some of m
 
 
 
-![code](https://user-images.githubusercontent.com/36370530/57770778-b0cdf780-772e-11e9-8c8e-6b097faa0702.png)
 ![code1](https://user-images.githubusercontent.com/36370530/57770954-17531580-772f-11e9-8135-9b51660f6b1e.png)
 ![code2](https://user-images.githubusercontent.com/36370530/57770979-23d76e00-772f-11e9-81fa-c83e76dc625e.png)
 
