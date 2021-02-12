@@ -1,7 +1,7 @@
 # Indian Ceo's - Ionic Project
 
 
-Hello Folks!! I've developed this mobile application using Ionic Framework.
+I developed this mobile application using Ionic Framework.
 
 This is my first simple ionic mobile application and it is useful to know more about our great Indian Ceo's.
 
