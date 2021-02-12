@@ -11,10 +11,7 @@ This is my first simple ionic mobile application and it is useful to know more a
 ---- Take a Quiz<br>
 ---- About Developer
 
-Source Code of this app is available in the above repository.
-
-I used Visual Studio Code as my Code Editor. Following screenshots are some of my code snippets.
-
+I used Visual Studio Code as my Code Editor.
 
 
 These are some screenshots of my app
