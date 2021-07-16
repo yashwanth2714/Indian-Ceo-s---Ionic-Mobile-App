@@ -1,20 +1,14 @@
-# Indian Ceo's - Ionic Project
+<h1 align=center>Indian Ceo's - Ionic Project</h1>
 
 
-I developed this mobile application using Ionic Framework.
-
-This is my first simple ionic mobile application and it is useful to know more about our great Indian Ceo's.
-
-<b>Features Of This App Includes</b><br><br>
----- Information about Indian Ceo's<br>
+<b>This app provides:</b><br><br>
+---- Information about the Indian Ceo's<br>
 ---- Gallery<br>
----- Take a Quiz<br>
----- About Developer
-
-I used Visual Studio Code as my Code Editor.
+---- Quiz<br>
+---- Developer Details
 
 
-These are some screenshots of my app
+These are some screenshots of the app:
 
 
 <img src="https://user-images.githubusercontent.com/36370530/57771474-6f3e4c00-7730-11e9-8847-11527bd87dbb.png" alt="[Screenshot_20190515-155100]" width="300" align="left">
