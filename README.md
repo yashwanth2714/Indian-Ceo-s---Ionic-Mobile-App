@@ -1,8 +1,8 @@
-<h1 align=center>Indian Ceo's - Ionic Project</h1>
+<h1 align=center>Indian CEOs - Ionic Project</h1>
 
 
 <b>This app provides:</b><br><br>
----- Information about the Indian Ceo's<br>
+---- Information about the Indian CEOs<br>
 ---- Gallery<br>
 ---- Quiz<br>
 ---- Developer Details
